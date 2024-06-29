@@ -567,6 +567,21 @@ textarea {
 	cursor: pointer;
 	transition: font-weight .1s;
 }
+
+#channelname, #servername {
+	margin-top: .1in;
+	margin-bottom: .1in;
+	padding-left: 5px;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+	white-space: nowrap;
+}
+
+#serverName {
+	margin-left: 5px;
+	background-color: var(--channels-bg);
+}
+
 .viewChannel{
 	font-weight:900;
 	background: color-mix(in srgb, var(--channel-hover) 60%, transparent)
